@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker">
+</head>
+
+<body>
+
+    <section class="memory-game">
+        <div class="memory-card" data-framework="chick">
+            <img class="front-face" src="img/ca1.jpg" alt="chick" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+        <div class="memory-card" data-framework="chick">
+            <img class="front-face" src="img/ca1.jpg" alt="chick" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+
+        <div class="memory-card" data-framework="fox">
+            <img class="front-face" src="img/ca3.jpg" alt="fox" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+        <div class="memory-card" data-framework="fox">
+            <img class="front-face" src="img/ca3.jpg" alt="fox" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+
+        <div class="memory-card" data-framework="rabbit">
+            <img class="front-face" src="img/ca4.jpg" alt="rabbit" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+        <div class="memory-card" data-framework="rabbit">
+            <img class="front-face" src="img/ca4.jpg" alt="rabbit" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+
+        <div class="memory-card" data-framework="dug">
+            <img class="front-face" src="img/ca5.jpg" alt="dug" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+        <div class="memory-card" data-framework="dug">
+            <img class="front-face" src="img/ca5.jpg" alt="dug" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+
+        <div class="memory-card" data-framework="sloth">
+            <img class="front-face" src="img/ca6.jpg" alt="sloth" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+        <div class="memory-card" data-framework="sloth">
+            <img class="front-face" src="img/ca6.jpg" alt="sloth" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+
+        <div class="memory-card" data-framework="dogs">
+            <img class="front-face" src="img/ca9.jpg" alt="dogs" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+        <div class="memory-card" data-framework="dogs">
+            <img class="front-face" src="img/ca9.jpg" alt="dogs" />
+            <img class="back-face" src="img/backcard.png" alt="backcard ITC" />
+        </div>
+    </section>
+
+
+
+    <footer id="footerText">
+        <div id="deadSpace">
+            <button onClick="clearBoard('game')">Clear Game Board</button>
+            <button onclick="newGame()">New Game</button>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+
+
+</body>
+
+</html>
